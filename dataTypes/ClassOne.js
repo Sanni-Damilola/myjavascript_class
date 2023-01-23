@@ -3,5 +3,5 @@ let typeOFCars = []
 
 const PI = 22/7
 
-
-console.log(typeof typeOFCars);
+// getting the data type
+console.log(typeof typeOFCars); // arr

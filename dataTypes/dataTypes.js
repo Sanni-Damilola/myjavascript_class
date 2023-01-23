@@ -1,3 +1,4 @@
+// color  from 1 to 26
 let data = [
   "red",
   "orange",
@@ -27,6 +28,8 @@ let data = [
   "darkcyan",
   "darkgoldenrod",
 ];
+
+// all Alphabet
 let alph = [
   "a",
   "b",
@@ -67,8 +70,10 @@ let convertToLocaleLowerCase = getColorIndex;
 
 console.log(convertToLocaleLowerCase);
 
+// empty arr
 const arr = [];
 
+// sort algorithm
 const sortinfo = (x) => {
   return (a, b) => {
     if (a[x] < b[x]) {
@@ -80,6 +85,7 @@ const sortinfo = (x) => {
   };
 };
 
+// adding to the empty arr
 arr.push({
   id: Math.floor(Math.random() * 10000),
   taskname: "a",
